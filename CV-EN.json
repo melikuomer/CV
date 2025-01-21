@@ -1,0 +1,408 @@
+{
+  "basics": {
+    "url": {
+      "href": "http://meliksahustaomer.net",
+      "label": "meliksahustaomer.net"
+    },
+    "name": "Melikşah Ustaömer",
+    "email": "meliksahuomer@gmail.com",
+    "phone": "+905388464396",
+    "picture": {
+      "url": "",
+      "size": 96,
+      "effects": {
+        "border": false,
+        "hidden": false,
+        "grayscale": false
+      },
+      "aspectRatio": 1,
+      "borderRadius": 0
+    },
+    "headline": "Computer Engineer",
+    "location": "Istanbul, Turkiye",
+    "customFields": []
+  },
+  "metadata": {
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "format": "a4",
+      "margin": 18,
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "notes": "",
+    "theme": {
+      "text": "#000000",
+      "primary": "#000000",
+      "background": "#ffffff"
+    },
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "education",
+          "projects",
+          "volunteer",
+          "references"
+        ],
+        [
+          "publications",
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "languages"
+        ]
+      ]
+    ],
+    "template": "onyx",
+    "typography": {
+      "font": {
+        "size": 14,
+        "family": "IBM Plex Sans",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ]
+      },
+      "hideIcons": false,
+      "lineHeight": 1.5,
+      "underlineLinks": true
+    }
+  },
+  "sections": {
+    "awards": {
+      "id": "awards",
+      "name": "Awards",
+      "items": [
+        {
+          "id": "jrrbftb4r3qeleaz9jngjtvf",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "10/2017",
+          "title": "International UAV Competition Finalist",
+          "awarder": "Tubitak",
+          "summary": "",
+          "visible": true
+        },
+        {
+          "id": "y1412dmru9z9tzrfa3adjzdt",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "10/2018",
+          "title": "UAV Competition Drone Category Finalist",
+          "awarder": "Teknofest",
+          "summary": "",
+          "visible": true
+        }
+      ],
+      "columns": 2,
+      "visible": true,
+      "separateLinks": true
+    },
+    "custom": {},
+    "skills": {
+      "id": "skills",
+      "name": "Skills",
+      "items": [
+        {
+          "id": "emqlki9ihn630spso2kqkoqx",
+          "visible": true,
+          "name": "Programming Languages",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "JavaScript",
+            "Python",
+            "C#",
+            "C++",
+            "BASH"
+          ]
+        },
+        {
+          "id": "ra843t807koo6spsdh2s5o2u",
+          "visible": true,
+          "name": "Other",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Git",
+            "Docker",
+            "Kubernetes"
+          ]
+        }
+      ],
+      "columns": 2,
+      "visible": true,
+      "separateLinks": true
+    },
+    "summary": {
+      "id": "summary",
+      "name": "Summary",
+      "columns": 1,
+      "content": "<p>A full-stack developer with a passion for building dynamic web applications and embedded IoT systems. Experienced in <strong>Angular, Node.js</strong>, and <strong>Apache Airflow</strong>, with a keen eye for user-centric design and scalable solutions and integrations. Proficient in <strong>Python</strong> and <strong>asynchronous programming</strong>, with hands-on expertise in <strong>Raspberry Pi</strong>-based systems. Has past experience with<strong> C++</strong> and <strong>C#</strong>, along with developing mobile game demos in <strong>Unity</strong>. Thrives in collaborative environments and enjoys solving complex technical challenges with innovative approaches.</p>",
+      "visible": true,
+      "separateLinks": true
+    },
+    "profiles": {
+      "id": "profiles",
+      "name": "Profiles",
+      "items": [
+        {
+          "id": "ss6qtxcpdm50vgatyqkq7ykh",
+          "url": {
+            "href": "https://github.com/melikuomer",
+            "label": ""
+          },
+          "icon": "github",
+          "network": "github",
+          "visible": true,
+          "username": "melikuomer"
+        },
+        {
+          "id": "v23c75ag97g795i7u02iml0g",
+          "url": {
+            "href": "https://www.linkedin.com/in/meliksah-ustaomer/",
+            "label": ""
+          },
+          "icon": "linkedin",
+          "network": "LinkedIn",
+          "visible": true,
+          "username": "meliksah-ustaomer"
+        }
+      ],
+      "columns": 1,
+      "visible": true,
+      "separateLinks": true
+    },
+    "projects": {
+      "id": "projects",
+      "name": "Projects",
+      "items": [
+        {
+          "id": "jy5p9aei9muki1z9oftzcbt5",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": " - ",
+          "name": " RSA-encrypted Steganography",
+          "summary": "The data is first encrypted using the RSA encryption algorithm. Then, the encrypted data is written to the Least Significant Bit (LSB) value of a BMP file.",
+          "visible": false,
+          "keywords": [
+            "C++"
+          ],
+          "description": "A console application that hides a secret into a BMP file"
+        },
+        {
+          "id": "xtasj9xxzrsjvurj90yogesn",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": " - ",
+          "name": "Phishing Attack Example",
+          "summary": "<p>An application to demonstrate how phishing attacks are performed. A clone of a known website is created to deceive unsuspecting users. When a user enters their credentials, a <strong>Python </strong>bot automatically logs in on a separate computer, capturing their sensitive information.</p>",
+          "visible": false,
+          "keywords": [
+            "NodeJS",
+            "Python",
+            "Selenium"
+          ],
+          "description": " "
+        },
+        {
+          "id": "n5upcjjb1z3p6f7pc9ppkxgl",
+          "visible": true,
+          "name": "Market Run",
+          "description": "",
+          "date": " - ",
+          "summary": "<p><strong>Market Run</strong>: A delivery empire simulator where players progress from a local delivery driver to a thriving entrepreneur. They expand by hiring additional drivers, broadening product offerings, and automating logistics. The game challenges strategic thinking and resource management across multiple regions.</p>",
+          "keywords": [
+            "C#",
+            "Unity"
+          ],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "upudt2y2szy02piprki7qkc1",
+          "visible": true,
+          "name": "DevRoyale",
+          "description": "",
+          "date": " - ",
+          "summary": "<p>Built a robust backend using <strong>Express.js</strong> (with <strong>Redis</strong> for temporary data and <strong>MySQL</strong> for the database). Implemented a <strong>multithreaded C++ service</strong> to collect real-time code usage metrics (RAM, CPU) and a <strong>JavaScript service</strong> to assess code readability and maintainability. Leveraged <strong>ELO ranking</strong> to compare submitted code, determining optimization levels and awarding updated scores to users.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ],
+      "columns": 2,
+      "visible": true,
+      "separateLinks": true
+    },
+    "education": {
+      "id": "education",
+      "name": "Education",
+      "items": [
+        {
+          "id": "xglhfqio2rralir45dyozf5z",
+          "visible": true,
+          "institution": "Karadeniz Technical University",
+          "studyType": "",
+          "area": "Computer Engineer",
+          "score": "GPA 3.02",
+          "date": "09/2018 - 09/2024",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "frpws7bwdp6pfrw62q8pytqs",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "area": "Physics",
+          "date": "09/2009 - 06/2018",
+          "score": "",
+          "summary": "",
+          "visible": true,
+          "studyType": "Other",
+          "institution": "Science and Art Center"
+        }
+      ],
+      "columns": 2,
+      "visible": true,
+      "separateLinks": true
+    },
+    "interests": {
+      "id": "interests",
+      "name": "Interests",
+      "items": [],
+      "columns": 1,
+      "visible": true,
+      "separateLinks": true
+    },
+    "languages": {
+      "id": "languages",
+      "name": "Languages",
+      "items": [
+        {
+          "id": "h24oapzintpqcovmbvryvqwa",
+          "visible": true,
+          "name": "English",
+          "description": "Fluent (written and spoken)",
+          "level": 0
+        },
+        {
+          "id": "tc2buxnbk4489qo8wr6dv6rr",
+          "name": "Turkish",
+          "level": 0,
+          "visible": true,
+          "description": "(Native)"
+        }
+      ],
+      "columns": 2,
+      "visible": true,
+      "separateLinks": true
+    },
+    "volunteer": {
+      "id": "volunteer",
+      "name": "Volunteering",
+      "items": [],
+      "columns": 1,
+      "visible": true,
+      "separateLinks": true
+    },
+    "experience": {
+      "id": "experience",
+      "name": "Experience",
+      "items": [
+        {
+          "id": "e8zzjc290sgmdc0lynm7aui8",
+          "visible": true,
+          "company": "Electroop Teknoloji Enerji Sanayi ve Tic Ltd Sti",
+          "position": "Full-stack Developer",
+          "location": "",
+          "date": "05/2024 - Today",
+          "summary": "<p>Designed, developed, and maintained <strong>Apache Airflow</strong> workflows for automation and integration of critical business processes, including government systems, invoicing platforms, and payment methods. Implemented seamless data flow and scheduling to ensure reliable performance and compliance. Integrated <strong>OCPI</strong> (Open Charge Point Interface) standards for streamlined communication and data exchange in EV charging systems, supporting interoperability and efficient operations.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "fktlc347cjsvcih8qb0apu29",
+          "visible": true,
+          "company": "Electroop Teknoloji Enerji Sanayi ve Tic Ltd Sti",
+          "position": "Frontend Intern",
+          "location": "",
+          "date": "05/2024 - 07/2024",
+          "summary": "<p>Developed and maintained a grid-based drag-and-drop window manager in <strong>Angular</strong>, enabling dynamic component sizing and persistent positioning through local storage. Ensured code maintainability through modular architecture and optimized performance for a seamless user experience. Leveraged <strong>TailwindCSS</strong> to design modern, responsive, and scalable user interfaces.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "zl3dlbsmgnw6ia2mgkncski6",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "07/2021 - 09/2021",
+          "company": "Mobiliz Information and Communication Technologies",
+          "summary": "<p>Migrating from NoSQL database to SQL database. Created a new middleware to configure requests according to the new requirements of the SQL database.\n<strong>MongoDB, NodeJS, PostgreSQL</strong></p>",
+          "visible": true,
+          "location": "",
+          "position": "Backend Intern"
+        }
+      ],
+      "columns": 1,
+      "visible": true,
+      "separateLinks": true
+    },
+    "references": {
+      "id": "references",
+      "name": "References",
+      "items": [],
+      "columns": 1,
+      "visible": true,
+      "separateLinks": true
+    },
+    "publications": {
+      "id": "publications",
+      "name": "Publications",
+      "items": [],
+      "columns": 1,
+      "visible": true,
+      "separateLinks": true
+    },
+    "certifications": {
+      "id": "certifications",
+      "name": "Certifications",
+      "items": [],
+      "columns": 1,
+      "visible": true,
+      "separateLinks": true
+    }
+  }
+}
